@@ -22,8 +22,8 @@ class App extends React.Component {
   render() {
   
     return (
-      <div className=" p-2">
-        <h1 className="text-center text-white bg-dark p-2">Counter</h1>
+      <div className="card border border-dark border-4 rounded shadow m-3 p-2">
+        <h1 className="text-center rounded text-white bg-dark p-2">Counter</h1>
         <Counter count={this.state.count} substract={this.handleMinusClick} increment={this.handlePlusClick}/>
       </div>
     )
