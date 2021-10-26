@@ -23,8 +23,8 @@ class App extends React.Component {
       <div className="p-4">
         <h1>Counter</h1>
         <h2>{this.state.count}</h2>
-        <button type="button" className="btn btn-success" onClick={this.handleMinusClick}>-</button>
-        <button type="button" className="btn btn-danger" onClick={this.handlePlusClick}>+</button>
+        <button className="btn btn-success" onClick={this.handleMinusClick}>-</button>
+        <button className="btn btn-danger" onClick={this.handlePlusClick}>+</button>
       </div>
     )
   }
